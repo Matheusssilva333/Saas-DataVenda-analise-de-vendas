@@ -12,6 +12,8 @@ Criar um Saas de análise de vendas para e-commerces em fase de crescimento pode
 
   # Tecnologias a serem utilizadas
   - Python (Para a lógica principal e funcionamento do Saas)
+  - Supabase (Para o Backend)
   - Docker (Para empacotamento da aplicação e suas dependências)
   - Render (Para hospedagem)
   - Javascript, HTML e CSS (Para interface Web)
+  - PostgreSQL e SQL (Banco de dados)

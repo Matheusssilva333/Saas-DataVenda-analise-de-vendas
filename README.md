@@ -1,7 +1,7 @@
 #  Saas DataVenda - Análise de vendas
 
 # Objetivo
-Criar um Saas de análise de vendas para e-commerces em fase de crescimento poderoso,com um sistema de inteligência artificial capaz de organizar todo funil de vendas, gerando relatórios,dashboards profundos sobre os dados financeiros e análise de produtos destacando os produtos mais vendidos da empresa.
+Criar um Saas de análise de vendas para e-commerces em fase de crescimento poderoso,com um sistema de inteligência artificial capaz de organizar todo funil de vendas, gerando relatórios e dashboards financeiros e análise de produtos destacando os produtos mais vendidos da empresa, com extrema precisão.
 
 # Funcionalidades
 - Análise de produtos mais vendidos 

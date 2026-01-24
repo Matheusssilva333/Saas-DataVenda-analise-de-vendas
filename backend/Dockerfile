@@ -8,8 +8,13 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-# Instala dependências do sistema necessárias (opcional, mas boa prática)
-RUN apt-get update && apt-get install -y --no-install-recommends gcc && rm -rf /var/lib/apt/lists/*
+# Instala dependências do sistema necessárias
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    python3-dev \
+    libstdc++6 \
+    && rm -rf /var/lib/apt/lists/*
 
 # Copia os requisitos
 COPY requirements.txt .
